@@ -58,8 +58,10 @@ h2 {
     font-size: 1em;
 }
 
-h3 {
+.titulos {
+    font-family: 'playfair display', sans-serif;
     color: #ffffff;
+    text-decoration: none;
     text-shadow: 7px 7px #a79b9b;
     font-size: 20px;
 }
@@ -116,7 +118,7 @@ h3 {
     color: #b91308;
 }
 
-.home {
+.h3 {
     font-family: 'playfair display' sans-serif;
     color: #ffffff;
     text-align: center;
@@ -516,8 +518,8 @@ footer h6 {
         font-size: 2em;
     }
     
-    h3 {
-        font-size: 35px;
+    .titulos {
+        font-size: 45px;
     }
     /*----------- media nav -------------- */
     .navegacion {
@@ -684,14 +686,31 @@ footer h6 {
 
 .pago {
     font-size: 20px;
+}  
+     
 }
 
+@media screen and (min-width: 1024px) {
 
+/* -------------transiciones nav------------- */
 
+.navegacion a {
+    transition: all .3s ease-in-out; 
+}
 
-    
+.navegacion a:hover {
+    color: #59cbee;
+    font-size: 45px;
+    text-decoration: underline;
+}
 
-    
-  
-    
+/* --------------transiciones enlaces index---------- */
+
+.titulos {
+    transition: all .2s ease-in-out;
+}
+.titulos:hover {
+    text-decoration: underline;
+    font-size: 55px;
+}
 }
