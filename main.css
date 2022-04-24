@@ -78,7 +78,7 @@ h3 {
 
 .navegacion li {
      display: inline-block;
-     padding: 15px;
+     padding: 5px;
      
 }
 
@@ -327,6 +327,46 @@ footer h6 {
     margin: auto;
 }
 
+
+/* -----------------estilo tartas----------------------------- */
+
+.frola {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+    color: #ffffff;
+    }
+
+.frola div {
+    display: flex;
+    justify-content: center;
+}
+
+.fyl {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+
+.fyl2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+
+.frola img {
+    width: 150px;
+    height: 150px;
+    
+}
+
+.frola p {
+    font-family: 'nixie one' sans-serif;
+    font-size: 15px;
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+}
 
 /* ----------------- estilo personalizadas ------------------- */
 
@@ -586,6 +626,17 @@ footer h6 {
     max-width: 500px;
 }
 
+/* ----------media seccion tartas---------- */
+
+.frola img {
+    width: 350px;
+    height: 350px;
+}
+
+.frola p {
+    font-size: 25px;
+    max-width: 500px;
+}
 /* ----------media personalizadas---------- */
 .goku {
     flex-direction: row;
