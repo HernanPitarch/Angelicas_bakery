@@ -118,7 +118,7 @@ h2 {
     color: #b91308;
 }
 
-.h3 {
+h3 {
     font-family: 'playfair display' sans-serif;
     color: #ffffff;
     text-align: center;
@@ -287,6 +287,28 @@ footer h6 {
 .logof h5 {
     margin-right: 60px;
     margin-top: 50px;
+}
+
+/* ---------------animacion logo what-------------------- */
+.ani {
+    animation-name: rotar;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+    
+}
+
+@keyframes rotar {
+
+    0% {
+        transform:rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+    
+
 }
 
 /* ---------------- estilo tortas ------------------ */
@@ -713,4 +735,40 @@ footer h6 {
     text-decoration: underline;
     font-size: 55px;
 }
+
+/* ------------trasiciones footer nav------------------ */
+
+footer .logof nav a {
+    transition: all .2s ease-in-out;
+}
+
+footer .logof nav a:hover {
+    text-decoration: underline;
+}
+
+/* ---------------animacion logo what--------------------
+.ani {
+    animation-name: rotar;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+    
+}
+
+@keyframes rotar {
+
+    0% {
+        transform:rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+    
+
+} */
+
+
+
+
 }
