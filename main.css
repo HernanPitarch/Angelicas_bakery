@@ -130,37 +130,37 @@ h3 {
 }
 /* ------------seccion tortas----------------- */
 .tortas {
-    display: grid;
-    grid-template-columns: auto;   
-}
-.tortas img {
-    height: 350px;
-    width: 350px;
-}
-
-.tortas div {
-    color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;  
-}
-
-.tortas2 {
-    align-content: center;
-}
-
-div li {
-    list-style-type: none;
-    text-align: center;
-    font-size: 15px;  
-} 
+    margin-top: 15px;
+  }
+  .tortas img {
+      height: 350px;
+      width: 350px;
+  }
+  
+   .tortas div {
+      color: #ffffff;
+      align-items: center;
+      justify-content: space-around;  
+  } 
+  
+  .tortas2 {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+  
+  div li {
+      list-style-type: none;
+      text-align: center;
+      font-size: 15px;  
+  } 
 
 /* ------------seccion tartas------------------ */
 .tarta {
-   display: flex;
-   flex-direction: column-reverse;
-}
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column-reverse;
+ }
 
 .tarta img {
     height: 350px;
@@ -171,7 +171,7 @@ div li {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 20px;
+    
 }
 
 .tarta2 {
@@ -182,8 +182,7 @@ div li {
 
 /* ------------seccion personalizadas---------------- */
 .personal {
-    display: grid;
-    grid-template-columns: auto;
+    margin-top: 15px;
 }
 
 .personal img {
@@ -194,13 +193,12 @@ div li {
 .personal2 {
     display: flex;
     flex-direction: column;
+    align-items: center;
 } 
 .personal div { 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+    color: #ffffff;
     align-items: center;
-    margin-top: 20PX;
+    justify-content: space-around;
 }
 
 .personal p {
@@ -314,26 +312,18 @@ footer h6 {
 /* ---------------- estilo tortas ------------------ */
 
 .ricota {
-    display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: auto auto;
     color: #ffffff;
     }
 
 .ricota div {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .tyc {
-   display: flex;
-   flex-direction: column;
    align-items: center;
 }
 
 .tyc2 {
-    display: flex;
-    flex-direction: column;
     align-items: center;
  }
 
@@ -358,30 +348,28 @@ footer h6 {
     display: grid;
     grid-template-rows: auto auto;
     grid-template-columns: auto auto;
-    color: #ffffff;
     }
 
 .frola div {
     display: flex;
     justify-content: center;
+    color: #ffffff;
 }
 
 .fyl {
-   display: flex;
-   flex-direction: column;
-   align-items: center;
+   text-align: center;
+   color: #ffffff;
 }
 
 .fyl2 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
- }
+    text-align: center;
+    color: #ffffff;
+}
+
 
 .frola img {
     width: 150px;
-    height: 150px;
-    
+    height: 150px;  
 }
 
 .frola p {
@@ -390,6 +378,7 @@ footer h6 {
     text-align: center;
     max-width: 400px;
     margin: auto;
+    color: #ffffff;
 }
 
 /* ----------------- estilo personalizadas ------------------- */
@@ -403,27 +392,21 @@ footer h6 {
 }
 
 .goku {
-    display: flex;
-    flex-direction: column;
     margin-top: 20px;
 }
 
 .letra {
-    display: flex;
-    flex-direction: column;
+   
     margin-top: 20px;
 }
 .person img {
+   justify-content: center;
     height: 250px;
     width: 250px;
 }
 
 .person div {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 25px;
-    margin-left: 50px;
+   text-align: center;
 }
 
 .person div ol {
@@ -431,6 +414,9 @@ footer h6 {
     margin: auto;
 }
 
+video {
+    margin-top: 15px;
+}
 
 /* --------------- estilo box para regalar ------------ */
 
@@ -445,16 +431,11 @@ footer h6 {
 }
 
 .box2 {
-    display: grid;
-    grid-template-rows: auto auto;
-    grid-template-columns: auto auto;
-    font-size: 12px;
     color: #ffffff;
 }
 
 .box2 div {
-    display: flex;
-    justify-content: center;
+    text-align: center;
 }
 
 .box2 img {
@@ -462,18 +443,10 @@ footer h6 {
     height: 150px;
 }
 
-.slug {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.slug .amor {
+    text-align: center;
  }
  
- .amor {
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-  }
-
 
 
 /* ------------- estilo contacto --------- */
@@ -560,9 +533,7 @@ footer h6 {
         max-width: 450px;
     }
     /* --------media seccion tortas--------- */
-    .tortas {
-        grid-template-columns: auto auto; 
-    }
+    
     .tortas img {
         height: 450px;
         width: 450px;
@@ -593,30 +564,35 @@ footer h6 {
     }
     .tarta div {
         flex-wrap: wrap;
+        margin-top: 15px;
     }
     
     .tarta2 {
         display: flex;
         flex-direction: column;
-        align-content: center;
     }
-    /* ----------media seccion personalizadas---------- */
-    .personal {
-        grid-template-columns: auto auto;
-    }
+
     
+    /* ----------media seccion personalizadas---------- */
+
     .personal img {
         height: 450px;
         width: 450px;
-        margin-left: 100px;
+       
     }
     
     .personal div { 
-        flex-wrap: wrap;
+        flex-wrap: wrap ;
+        margin-top: 15px;
     }
     
     .personal p {
         font-size: 25px;
+    }
+
+    .titulos {
+        text-align: center;
+        font-size: 30px;
     }
     /* ---------------- media seccion box regalo ------------------- */
     .regalo {
@@ -627,7 +603,7 @@ footer h6 {
     .regalo img {
         height: 450px;
         width: 450px;
-        margin-right: 100px;
+      
     }
     
     .regalo div {  
@@ -658,20 +634,10 @@ footer h6 {
 }
 
 .frola p {
-    font-size: 25px;
+    font-size: 35px;
     max-width: 500px;
 }
 /* ----------media personalizadas---------- */
-.goku {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
-}
-
-.letra {
-    flex-direction: row;
-    flex-wrap: wrap;
-}
 
 .person img {
     height: 350px;

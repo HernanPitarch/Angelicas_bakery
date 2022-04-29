@@ -4,14 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/main.css">
-
+    
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&display=swap" rel="stylesheet">
+    
+    <!-- css bootstrap -->
+    <link rel="stylesheet" href="../bootstrap.css">
+    <!-- css propio -->
+    <link rel="stylesheet" href="../main.css">
+
     <title>Angelicas bakery</title>
 </head>
 <body>
@@ -58,54 +63,58 @@
             </div>
         </section>
 
-            <section class="ricota"> 
-                    <div>
-                        <img src="../assets/img/marquise.jpeg"  alt="marquise">
-                    </div> 
-
-                    <div>
-                        <img src="../assets/img/brownie.jpeg"  alt="brownie">
-                    </div>
-
-                    <div class="tyc">
-                        <h3>MARQUISE</h3>
-                        <p>Base de marquise cocida con un cremoso de chocolate y crema</p>
-                    </div>
-                    
-                    <div class="tyc2">
-                        <h3>BROWNIE</h3>
-                        <p class="tortas">Base de marquise con mucho dulce de leche y exquisito merengue italiano (opcional crema)</p>
-                    </div>
-
-
-                        <div>
-                            <img src="../assets/img/tiramisu.jpeg"  alt="tiramisu">
+            <section class="container-fluid ricota">
+                    <div class="row"> 
+                        <div class="col">
+                            <img src="../assets/img/marquise.jpeg"  alt="marquise">
                         </div> 
-                        
-                        <div>
-                            <img src="../assets/img/chesse.jpeg"  alt="chessecake">
+
+                        <div class="col">
+                            <img src="../assets/img/brownie.jpeg"  alt="brownie">
                         </div>
-                       
-                        <div class="tyc">
-                            <h3>TORTA TIRAMISU</h3>
-                            <p>Postre de origen Italiano a base de cafe, vainillas y una exquisita crema de queso</p>
-                       </div>
-                        
-                       <div class="tyc2">
-                            <h3>CHEESECAKE</h3>
-                        
-                            <p class="tortas">Torta a base de queso con cobertura de fruta</p>
-        
-                            <h4>Cobertura</h4>
-                            <div>FRUTILLA</div>
-                            <input type="radio" name="sabor" value="frutilla">
-        
-                            <div>MARACUYA</div>
-                            <input type="radio" name="sabor" id="maracuya">
-        
-                            <div>FRUTO DEL BOSQUE</div>
-                            <input type="radio" name="sabor" id="fruto del bosque">
+                    </div>
+                    <div class="row">
+                        <div class="col tyc">
+                            <h3>MARQUISE</h3>
+                            <p>Base de marquise cocida con un cremoso de chocolate y crema</p>
                         </div>
+                        
+                        <div class="col tyc2">
+                            <h3>BROWNIE</h3>
+                            <p class="tortas">Base de marquise con mucho dulce de leche y exquisito merengue italiano (opcional crema)</p>
+                        </div>
+                    </div>
+                        <div class="row">
+                            <div class="col">
+                                <img src="../assets/img/tiramisu.jpeg"  alt="tiramisu">
+                            </div> 
+                            
+                            <div class="col">
+                                <img src="../assets/img/chesse.jpeg"  alt="chessecake">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col tyc">
+                                <h3>TORTA TIRAMISU</h3>
+                                <p>Postre de origen Italiano a base de cafe, vainillas y una exquisita crema de queso</p>
+                            </div>
+                            
+                            <div class="col tyc2">
+                                <h3>CHEESECAKE</h3>
+                            
+                                <p class="tortas">Torta a base de queso con cobertura de fruta</p>
+            
+                                <h4>Cobertura</h4>
+                                <div>FRUTILLA</div>
+                                <input type="radio" name="sabor" value="frutilla">
+            
+                                <div>MARACUYA</div>
+                                <input type="radio" name="sabor" id="maracuya">
+            
+                                <div>FRUTO DEL BOSQUE</div>
+                                <input type="radio" name="sabor" id="fruto del bosque">
+                            </div>
+                    </div>
             </section>
 
         <section class="what">

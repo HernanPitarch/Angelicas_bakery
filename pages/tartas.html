@@ -4,7 +4,6 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../css/main.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -12,6 +11,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,100&display=swap" rel="stylesheet">
+    
+    <!-- css bootstrap -->
+    <link rel="stylesheet" href="../bootstrap.css">
+    <!-- css propio -->
+    <link rel="stylesheet" href="../main.css">
+
     <title>Angelicas Bakery</title>
 </head>
 <body>
@@ -58,7 +63,8 @@
             </div>
         </section>
 
-            <section class="frola"> 
+            <section> 
+                <div class="frola">
                     <div>
                         <img src="../assets/img/frola.jpeg"  alt="pastafrola">
                     </div> 
@@ -66,18 +72,21 @@
                     <div>
                         <img src="../assets/img/lemon.jpeg"  alt="lemonpie">
                     </div>
-
-                    <div class="fyl">
+                </div>
+                    <div class="container">
+                        <div class="row">
+                    <div class="col fyl">
                         <h3>PASTAFROLA</h3>
                         <p>Tarta artesanal con una rica masa de manteca, rellena con dulce de membrillo, dulce de batata, dulce de leche o mixto </p>
                     </div>
                     
-                    <div class="fyl2">
+                    <div class="col fyl2">
                         <h3>LEMON PIE</h3>
                         <p class="tortas">Tarta de limon formada por una base de masa quebrada, crema de limon y merengue italiano (opcional crema)</p>
                     </div>
-
-
+                </div>
+                </div>
+                        <div class="frola">
                         <div>
                             <img src="../assets/img/ricota.jpeg"  alt="torta ricota">
                         </div> 
@@ -85,22 +94,26 @@
                         <div>
                             <img src="../assets/img/tofi.jpeg"  alt="tofi">
                         </div>
-                       
-                        <div class="fyl">
-                            <h3>TORTA DE RICOTA</h3>
-                            <p>Masa quebradiza a base de manteca con un exquisito relleno de ricota</p>
-                            <h4>MEDIDA</h4>
-                            <select name="medidas" id="medidas">
-                                <option value="20">20CM</option>
-                                <option value="24">24CM</option>
-                                <option value="26">26CM</option>
-                            </select>
-                       </div>
-                        
-                       <div class="fyl2">
-                            <h3>TARTA TOFI</h3>
-                        
-                            <p class="tortas">Base de masa sablee, mucho dulce de leche y ganache de chocolate semi amargo</p>
+                    </div>
+                       <div class="container">
+                            <div class="row">
+                                <div class="col fyl">
+                                    <h3>TORTA DE RICOTA</h3>
+                                    <p>Masa quebradiza a base de manteca con un exquisito relleno de ricota</p>
+                                    <h4>MEDIDA</h4>
+                                    <select name="medidas" id="medidas">
+                                        <option value="20">20CM</option>
+                                        <option value="24">24CM</option>
+                                        <option value="26">26CM</option>
+                                    </select>
+                                </div>
+                                
+                                <div class="col fyl2">
+                                    <h3>TARTA TOFI</h3>
+                                
+                                    <p class="tortas">Base de masa sablee, mucho dulce de leche y ganache de chocolate semi amargo</p>
+                                </div>
+                            </div>
                         </div>
             </section>
 
