@@ -69,26 +69,6 @@ h2 {
 .nos {
     color: #000000;
 }
- /* ----------------- estilo para nav------------- */
-
-.navegacion {
-    background-image: url(assets/img/gris.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    text-align: center; 
-}
-
-.navegacion li {
-     display: inline-block;
-     padding: 5px;
-     
-}
-
-.navegacion a {
-    text-decoration: none;
-    font-family: "josefin sans", sans-serif;
-    color: #ffffff;
-}
 
  /* ---------- estilo index ----------------- */
 .logo {
@@ -516,12 +496,7 @@ video {
     .titulos {
         font-size: 45px;
     }
-    /*----------- media nav -------------- */
-    .navegacion {
-        text-align: right;
-        position: sticky;
-        top: 0;
-    }
+   
     /* --------media main------------- */
     .presentacion p {
         font-size: 25px;
