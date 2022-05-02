@@ -466,7 +466,8 @@ video {
 
 .mapa {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
     margin: 20px;
 }
 
@@ -656,6 +657,7 @@ video {
     font-size: 20px;
 }
 
+
 .mapa p {
     font-size: 25px;
     max-width: 500px;
@@ -679,6 +681,11 @@ video {
 
 @media screen and (min-width: 1024px) {
 
+    /* ------------media contactos----------- */
+    .mapa {
+        flex-direction: row;
+        justify-content: space-between;
+    }
 /* -------------transiciones nav------------- */
 
 .navegacion a {
