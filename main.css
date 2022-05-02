@@ -263,7 +263,7 @@ footer h6 {
 }
 
 .logof h5 {
-    margin-right: 60px;
+    margin-right: 20px;
     margin-top: 50px;
 }
 
@@ -446,6 +446,15 @@ video {
 .tabla table {
     color: #ffffff;
     margin: auto;
+    padding: auto;
+}
+
+.tabla th {
+    padding: 5px;
+}
+
+.tabla td {
+    text-align: center;
 }
 
 .tabla h4 {
@@ -649,8 +658,13 @@ video {
 
 .pago {
     font-size: 20px;
+} 
+
+/* -------------media footer---------- */
+.logof h5 {
+    margin-right: 50px;
+    margin-top: 50px;
 }  
-     
 }
 
 @media screen and (min-width: 1024px) {
