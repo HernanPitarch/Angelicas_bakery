@@ -1,0 +1,287 @@
+/* ------media queries index---------- */
+
+@media screen and (min-width: 768px) {
+    h1 {
+        text-align: center;
+        font-size: 4em;
+    }
+    
+    h2 {
+        text-align: center;
+        font-size: 2em;
+    }
+    
+    .titulos {
+        font-size: 45px;
+    }
+
+   /* --------media main------------- */
+   .presentacion {
+       p {
+        font-size: 25px;
+        max-width: 750px;
+       }
+    
+    }
+
+    .home {
+    font-size: 45px ;
+    max-width: 450px;
+    }
+
+    /* --------media seccion tortas--------- */
+    
+    .tortas {
+        img {
+            height: $img-size3;
+            width: $img-size3;
+        }
+
+        div {
+            flex-wrap: wrap;
+            margin-top: 15px; 
+        }
+    }
+
+    .tortas2 {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    div {
+
+        li {
+            font-size: 25px;
+        }
+       
+    }
+    
+    /* -------------media seccion tartas-------------- */
+
+    .tarta {
+        display: grid;
+        grid-template-columns: auto auto;
+
+        img {
+            height: $img-size3;
+            width: $img-size3;
+        }
+
+        div {
+            flex-wrap: wrap;
+            margin-top: 15px;
+        }
+    }
+
+    .tarta2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* ----------media seccion personalizadas---------- */
+
+    .personal {
+        img {
+            height: $img-size3;
+            width: $img-size3;
+        }
+
+        div {
+            flex-wrap: wrap ;
+            margin-top: 15px;
+        }
+
+        p {
+            font-size: 25px;
+        } 
+    }
+
+    .titulos {
+        text-align: center;
+        font-size: 30px;
+    }
+
+    /* ---------------- media seccion box regalo ------------------- */
+    .regalo {
+        display: grid;
+        grid-template-columns: auto auto;
+
+        img {
+            height: $img-size3;
+            width: $img-size3;
+        }
+
+        div {
+            flex-wrap: wrap;
+        }
+
+        p {
+            font-size: 25px;
+        }
+    }
+
+    /* ----------media tortas--------- */
+    .ricota {
+        img {
+            width: $img-size;
+            height: $img-size;
+        }
+
+        p {
+            font-size: 25px;
+            max-width: 500px;
+        }
+    
+    }
+
+    /* ----------media seccion tartas---------- */
+
+    .frola {
+
+        img {
+            width: $img-size;
+            height: $img-size;
+        }
+    }
+
+    .fyl2 {
+
+        h3 {
+            font-size: 27px;
+        }
+       
+        p {
+            font-size: 25px;
+            max-width: 600px;
+            text-align: center;
+        }
+    }
+
+    .fyl {
+
+        h3 {
+            font-size: 27px;
+        }
+        
+        p {
+            font-size: 25px;
+            max-width: 600px;
+            text-align: center;
+        }
+    }
+
+    /* ----------media personalizadas---------- */
+
+    .person img {
+        img {
+            height: $img-size;
+            width: $img-size;
+        }
+    }
+
+    /* -----------media box pata regalar------------ */
+
+    .box {
+
+        p {
+            font-size: 25px;
+        }
+    }
+
+    .box2 {
+        font-size: 20px;
+
+        img {
+            width: $img-size;
+            height: $img-size;
+        }
+    }
+
+    /* -----------media contacto----------- */
+
+    .contacto {
+
+        h4 {
+            font-size: 20px;
+        }
+    }
+
+    .tabla {
+
+        h4 {
+            font-size: 20px;
+        }
+    }
+
+    .mapa {
+
+        p {
+            font-size: 25px;
+            max-width: 500px;
+        }
+
+        iframe {
+            height: 450px;
+            width: 600px;
+        }
+    }
+
+    .pago {
+        font-size: 20px;
+    }
+    
+    /* -------------media footer---------- */
+    .logof {
+
+        h5 {
+            margin-right: 50px;
+            margin-top: 50px;
+        }
+    
+    }  
+}
+
+@media screen and (min-width: 1024px) {
+
+    /* ------------media contactos----------- */
+    .mapa {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+   /* --------------transiciones enlaces index---------- */
+
+    .titulos {
+            transition: all .2s ease-in-out;  
+        }
+
+    .titulos:hover {
+            color: #59cbee;
+            text-decoration: underline;
+            font-size: 55px;
+    }
+    
+
+    /* ------------transiciones footer nav------------------ */
+
+    footer {
+        .logof {
+            nav {
+                a{
+                    transition: all .2s ease-in-out;
+                }
+            }
+        }
+    
+    }
+
+    footer {
+        .logof {
+            nav {
+                a:hover{
+                    text-decoration: underline;
+            }
+        }
+        }
+    }
+}

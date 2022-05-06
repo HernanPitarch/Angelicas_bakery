@@ -1,0 +1,464 @@
+@import "variables";
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+/*---------------------- grid general----------------------------- */
+.contenedor {
+    display: grid;
+    grid-template-areas:
+    "nav"
+    "header"
+    "main"
+    "footer"
+    ; 
+}
+
+header {
+    grid-area: header;
+}
+
+nav {
+    grid-area: nav;
+}
+
+main {
+    grid-area: main;
+    
+}
+
+footer {
+    grid-area: footer;
+}
+
+body {
+    background-image: url(../assets/img/background.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1440px;
+    margin: auto; 
+}
+
+/*----------- estilo header------------------ */
+
+@import "header";
+
+/* ---------- estilo index ----------------- */
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.presentacion {
+    background-image: url(../assets/img/nos.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+
+    p {
+        font-family: 'nixie one' sans-serif;
+    font-size: 15px;
+    text-align: center;
+    max-width: 550px;
+    margin: auto;
+    } 
+}
+
+.presentacion2 {
+    color: #b91308;
+}
+
+h3 {
+    font-family: 'playfair display' sans-serif;
+    color: $font-color;
+    text-align: center;
+    text-shadow: 7px 7px #a79b9b;
+    font-size: 25px ;
+    max-width: 350px;
+    margin: auto;   
+}
+
+/* ------------seccion tortas----------------- */
+.tortas {
+    margin-top: 15px;
+
+    img {
+        height: $img-size;
+        width: $img-size;
+    }
+
+    div {
+        color: $font-color;
+        align-items: center;
+        justify-content: space-around;  
+    }
+  }
+
+  .tortas2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+
+div {
+    li {
+        list-style-type: none;
+        text-align: center;
+        font-size: 15px;  
+    }
+}
+
+/* ------------seccion tartas------------------ */
+.tarta {
+        margin-top: 15px;
+        display: flex;
+        flex-direction: column-reverse;
+
+    img {
+        height: $img-size;
+        width: $img-size;
+    }
+
+    div {
+        color: $font-color;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+ }
+
+ .tarta2 {
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+}
+
+/* ------------seccion personalizadas---------------- */
+.personal {
+        margin-top: 15px;
+
+    img {
+        height: $img-size;
+        width: $img-size;
+    }
+
+    div {
+        color: $font-color;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    p {
+        color: $font-color;
+        font-size: 20px;
+        text-align: center;
+        max-width: 300px;
+        margin: auto;
+    }
+}
+
+.personal2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+} 
+
+/* ---------------seccion box regalo------------------- */
+
+.regalo {
+        display: flex;
+        flex-direction: column-reverse;
+
+    img {
+        height: $img-size;
+        width: $img-size;
+    }
+
+    div {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 20px;
+    }
+
+    p {
+        color: $font-color;
+        font-size: 20px;
+        text-align: center;
+        max-width: 300px;
+        margin: auto;
+    }
+}
+
+.regalo2 {
+        display: flex;
+        flex-direction: column;
+}
+
+/* ------------- estilo footer ----------------- */
+
+@import "footer";
+
+/* ---------------animacion logo what-------------------- */
+.ani {
+    animation-name: rotar;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 4s;
+}
+
+@keyframes rotar {
+
+    0% {
+        transform:rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }    
+}
+
+/* ---------------- estilo tortas ------------------ */
+
+.ricota {
+    color: $font-color;
+
+    div {
+        text-align: center;
+    }
+
+    img {
+        width: $img-size2;
+        height: $img-size2;
+    }
+
+    p {
+        font-family: 'nixie one' sans-serif;
+        font-size: 15px;
+        text-align: center;
+        max-width: 400px;
+        margin: auto;
+    }
+    }
+
+    .tyc {
+        align-items: center;
+     }
+     
+     .tyc2 {
+         align-items: center;
+      }
+
+      /* -----------------estilo tartas----------------------------- */
+
+.frola {
+    display: grid;
+    grid-template-rows: auto auto;
+    grid-template-columns: auto auto;
+
+    div {
+        display: flex;
+        justify-content: center;
+        color: $font-color;
+    }
+
+    img {
+        width: $img-size2;
+        height: $img-size2; 
+    }
+    }
+
+    .fyl {
+        text-align: center;
+        color: $font-color;
+
+        h3 {
+            font-size: 17px;
+        }
+
+        p {
+            font-family: 'nixie one' sans-serif;
+            font-size: 15px;
+            text-align: center;
+            max-width: 400px;
+            margin: auto;
+            color: $font-color;
+        }
+     }
+     
+     .fyl2 {
+         text-align: center;
+         color: $font-color;
+
+         h3 {
+            font-size: 17px;
+        }
+
+         p {
+            font-family: 'nixie one' sans-serif;
+            font-size: 15px;
+            text-align: center;
+            max-width: 400px;
+            margin: auto;
+            color: $font-color;
+        }
+     }
+
+     /* ----------------- estilo personalizadas ------------------- */
+
+.person {
+    color: $font-color;
+
+    h3 {
+        text-align: center;
+    }
+
+    img {
+        justify-content: center;
+        height: 250px;
+        width: 250px;
+    }
+
+    div {
+        text-align: center;
+    }
+
+    div ol {
+        max-width: 650px;
+        margin: auto;
+    }
+}
+
+.goku {
+    margin-top: 20px;
+}
+
+.letra {
+   
+    margin-top: 20px;
+}
+
+video {
+    margin-top: 15px;
+}
+
+/* --------------- estilo box para regalar ------------ */
+
+.box {
+    text-align: center;
+    margin-bottom: 30px;
+
+    p {
+        color: $font-color;
+        font-size: 15px;
+    }
+    }
+
+.box2 {
+    color: $font-color;
+
+    div {
+        text-align: center;
+    }
+
+    img {
+        width: $img-size2;
+        height: $img-size2;
+    }
+    }
+
+.slug {
+    .amor {
+        text-align: center;
+    }   
+}
+
+/* ------------- estilo contacto --------- */
+
+.contacto {
+
+    form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h4{
+        font-size: 15px;
+        color: $font-color;
+        text-align: center;
+    }
+    
+}
+
+.tabla {
+
+    table {
+        color: $font-color;
+        margin: auto;
+        padding: auto;
+    }
+
+    th {
+        padding: 5px;
+    }
+
+    td {
+        text-align: center;
+    }
+
+    h4 {
+        color: $font-color;
+        font-size: 15px;
+        text-align: center;
+        margin-top: 20px;
+    }
+}
+
+.mapa {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+
+    iframe {
+        width: 300px;
+        height: 300px;
+    }
+
+    p {
+        color: $font-color;
+        font-size: 15px;
+        text-align: center;
+        max-width: 350px;
+        margin: auto;
+    }
+}
+
+.pago {
+    color: $font-color;
+    font-size: 15px;
+
+    ul li {
+        text-align: left;
+    margin-top: 12px;
+    }
+}
+
+/* ------media queries---------- */
+
+@import "media-queries";
+
+
+
+
+
+
+
+
