@@ -20,7 +20,7 @@ footer {
   grid-area: footer; }
 
 body {
-  background-image: url(../assets/img/background.jpeg);
+  background-image: url(../assets/img/background2.jpeg);
   background-attachment: fixed;
   background-size: cover;
   background-repeat: no-repeat;
@@ -29,6 +29,12 @@ body {
   margin: auto; }
 
 /*----------- estilo header------------------ */
+header {
+  background-image: url(../assets/img/background.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 70px; }
+
 h1 {
   font-family: 'playfair display', sans-serif;
   color: #ffffff;
@@ -76,9 +82,9 @@ h2 {
 
 h3 {
   font-family: 'playfair display' sans-serif;
-  color: #ffffff;
+  color: #000000;
   text-align: center;
-  text-shadow: 7px 7px #a79b9b;
+  text-shadow: 7px 7px #a59c9c;
   font-size: 25px;
   max-width: 350px;
   margin: auto; }
@@ -215,12 +221,12 @@ footer {
 
 /* ---------------- estilo tortas ------------------ */
 .ricota {
-  color: #ffffff; }
+  color: #000000; }
   .ricota div {
     text-align: center; }
   .ricota img {
-    width: 150px;
-    height: 150px; }
+    width: 100px;
+    height: 100px; }
   .ricota p {
     font-family: 'nixie one' sans-serif;
     font-size: 15px;
@@ -249,7 +255,7 @@ footer {
 
 .fyl {
   text-align: center;
-  color: #ffffff; }
+  color: #000000; }
   .fyl h3 {
     font-size: 17px; }
   .fyl p {
@@ -258,11 +264,11 @@ footer {
     text-align: center;
     max-width: 400px;
     margin: auto;
-    color: #ffffff; }
+    color: #000000; }
 
 .fyl2 {
   text-align: center;
-  color: #ffffff; }
+  color: #000000; }
   .fyl2 h3 {
     font-size: 17px; }
   .fyl2 p {
@@ -271,11 +277,11 @@ footer {
     text-align: center;
     max-width: 400px;
     margin: auto;
-    color: #ffffff; }
+    color: #000000; }
 
 /* ----------------- estilo personalizadas ------------------- */
 .person {
-  color: #ffffff; }
+  color: #000000; }
   .person h3 {
     text-align: center; }
   .person img {
@@ -302,16 +308,16 @@ video {
   text-align: center;
   margin-bottom: 30px; }
   .box p {
-    color: #ffffff;
+    color: #000000;
     font-size: 15px; }
 
 .box2 {
-  color: #ffffff; }
+  color: #000000; }
   .box2 div {
     text-align: center; }
   .box2 img {
-    width: 150px;
-    height: 150px; }
+    width: 100px;
+    height: 100px; }
 
 .slug .amor {
   text-align: center; }
@@ -324,11 +330,11 @@ video {
 
 .contacto h4 {
   font-size: 15px;
-  color: #ffffff;
+  color: #000000;
   text-align: center; }
 
 .tabla table {
-  color: #ffffff;
+  color: #000000;
   margin: auto;
   padding: auto; }
 
@@ -339,7 +345,7 @@ video {
   text-align: center; }
 
 .tabla h4 {
-  color: #ffffff;
+  color: #000000;
   font-size: 15px;
   text-align: center;
   margin-top: 20px; }
@@ -353,14 +359,14 @@ video {
     width: 300px;
     height: 300px; }
   .mapa p {
-    color: #ffffff;
+    color: #000000;
     font-size: 15px;
     text-align: center;
     max-width: 350px;
     margin: auto; }
 
 .pago {
-  color: #ffffff;
+  color: #000000;
   font-size: 15px; }
   .pago ul li {
     text-align: left;

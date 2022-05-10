@@ -34,7 +34,7 @@ footer {
 }
 
 body {
-    background-image: url(../assets/img/background.jpeg);
+    background-image: url(../assets/img/background2.jpeg);
     background-attachment: fixed;
     background-size: cover;
     background-repeat: no-repeat;
@@ -75,9 +75,9 @@ body {
 
 h3 {
     font-family: 'playfair display' sans-serif;
-    color: $font-color;
+    color: $font-color2;
     text-align: center;
-    text-shadow: 7px 7px #a79b9b;
+    text-shadow: 7px 7px #a59c9c;
     font-size: 25px ;
     max-width: 350px;
     margin: auto;   
@@ -227,15 +227,15 @@ div {
 /* ---------------- estilo tortas ------------------ */
 
 .ricota {
-    color: $font-color;
+    color: $font-color2;
 
     div {
         text-align: center;
     }
 
     img {
-        width: $img-size2;
-        height: $img-size2;
+        width: $img-size4;
+        height: $img-size4;
     }
 
     p {
@@ -276,7 +276,7 @@ div {
 
     .fyl {
         text-align: center;
-        color: $font-color;
+        color: $font-color2;
 
         h3 {
             font-size: 17px;
@@ -288,13 +288,13 @@ div {
             text-align: center;
             max-width: 400px;
             margin: auto;
-            color: $font-color;
+            color: $font-color2;
         }
      }
      
      .fyl2 {
          text-align: center;
-         color: $font-color;
+         color: $font-color2;
 
          h3 {
             font-size: 17px;
@@ -306,14 +306,14 @@ div {
             text-align: center;
             max-width: 400px;
             margin: auto;
-            color: $font-color;
+            color: $font-color2;
         }
      }
 
      /* ----------------- estilo personalizadas ------------------- */
 
 .person {
-    color: $font-color;
+    color: $font-color2;
 
     h3 {
         text-align: center;
@@ -355,21 +355,21 @@ video {
     margin-bottom: 30px;
 
     p {
-        color: $font-color;
+        color: $font-color2;
         font-size: 15px;
     }
     }
 
 .box2 {
-    color: $font-color;
+    color: $font-color2;
 
     div {
         text-align: center;
     }
 
     img {
-        width: $img-size2;
-        height: $img-size2;
+        width: $img-size4;
+        height: $img-size4;
     }
     }
 
@@ -391,7 +391,7 @@ video {
 
     h4{
         font-size: 15px;
-        color: $font-color;
+        color: $font-color2;
         text-align: center;
     }
     
@@ -400,7 +400,7 @@ video {
 .tabla {
 
     table {
-        color: $font-color;
+        color: $font-color2;
         margin: auto;
         padding: auto;
     }
@@ -414,7 +414,7 @@ video {
     }
 
     h4 {
-        color: $font-color;
+        color: $font-color2;
         font-size: 15px;
         text-align: center;
         margin-top: 20px;
@@ -433,7 +433,7 @@ video {
     }
 
     p {
-        color: $font-color;
+        color: $font-color2;
         font-size: 15px;
         text-align: center;
         max-width: 350px;
@@ -442,7 +442,7 @@ video {
 }
 
 .pago {
-    color: $font-color;
+    color: $font-color2;
     font-size: 15px;
 
     ul li {
