@@ -86,33 +86,39 @@ h3 {
 /* ------------seccion tortas----------------- */
 .tortas {
     margin-top: 15px;
-
+    
     img {
         height: $img-size;
         width: $img-size;
     }
 
     div {
-        color: $font-color;
+        color: $font-color2;
         align-items: center;
-        justify-content: space-around;  
+        justify-content: space-around;
     }
-  }
+
+}
 
   .tortas2 {
         display: flex;
         flex-direction: column;
         align-items: center;
+
+        ul {
+            border-top: 2px solid #000000;
+            border-bottom: 2px solid #000000;
+        }
 }
 
-div {
+div {    
     li {
         list-style-type: none;
         text-align: center;
         font-size: 15px;  
     }
 }
-
+  
 /* ------------seccion tartas------------------ */
 .tarta {
         margin-top: 15px;
@@ -125,10 +131,11 @@ div {
     }
 
     div {
-        color: $font-color;
+        color: $font-color2;
         display: flex;
         justify-content: space-around;
         align-items: center;
+        
     }
  }
 
@@ -136,6 +143,12 @@ div {
         display: flex;
         flex-direction: column;
         align-content: center;
+
+        ul{
+            border-top: 2px solid #000000;
+            border-bottom: 2px solid #000000;
+            margin-top: 5px;
+        }
 }
 
 /* ------------seccion personalizadas---------------- */
@@ -148,17 +161,19 @@ div {
     }
 
     div {
-        color: $font-color;
+        color: $font-color2;
         align-items: center;
         justify-content: space-around;
     }
 
     p {
-        color: $font-color;
+        color: $font-color2;
         font-size: 20px;
         text-align: center;
         max-width: 300px;
         margin: auto;
+        border-top: 2px solid #000000;
+        border-bottom: 2px solid #000000;
     }
 }
 
@@ -188,11 +203,13 @@ div {
     }
 
     p {
-        color: $font-color;
+        color: $font-color2;
         font-size: 20px;
         text-align: center;
         max-width: 300px;
         margin: auto;
+        border-top: 2px solid #000000;
+        border-bottom: 2px solid #000000;
     }
 }
 
@@ -244,6 +261,10 @@ div {
         text-align: center;
         max-width: 400px;
         margin: auto;
+    }
+
+    h3 {
+        font-size: 20px;
     }
     }
 
