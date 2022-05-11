@@ -233,12 +233,21 @@
     }
     
     /* -------------media footer---------- */
+
+    footer {
+        h6 {
+            font-size: 15px;
+        }
+    }
+
     .logof {
 
         h5 {
             margin-right: 50px;
             margin-top: 50px;
         }
+
+       
     
     }  
 }
@@ -253,7 +262,80 @@
 
    /* --------------transiciones enlaces index---------- */
 
-    
+                /*--seccion tortas--*/
+   .tortas2 {
+       overflow: hidden;
+        a {
+            transition: transform 1s, filter 1.5s ease-in-out;
+            filter: grayscale(0);
+            transform: scale(1);
+       }
+   }
+
+
+   .tortas2:hover {
+        a {
+            filter: grayscale(2);
+            transform: scale(1.5);
+        }
+    }
+
+            /*--seccion tartas--*/  
+            
+     .tarta2 {
+       overflow: hidden;
+        a {
+            transition: transform 1s, filter 1.5s ease-in-out;
+            filter: grayscale(0);
+            transform: scale(1);
+       }
+   }
+
+
+   .tarta2:hover {
+        a {
+            filter: grayscale(2);
+            transform: scale(1.5);
+        }
+    }
+     
+            /*--seccion personalizadas--*/
+
+    .personal2 {
+        overflow: hidden;
+            a {
+                transition: transform 1s, filter 1.5s ease-in-out;
+                filter: grayscale(0);
+                transform: scale(1);
+        }
+    }
+
+
+   .personal2:hover {
+        a {
+            filter: grayscale(2);
+            transform: scale(1.4);
+        }
+    }
+
+            /*--seccion box para regalar--*/
+
+    .regalo2 {
+        overflow: hidden;
+            a {
+                transition: transform 1s, filter 1.5s ease-in-out;
+                filter: grayscale(0);
+                transform: scale(1);
+        }
+    }
+
+
+    .regalo2:hover {
+           a {
+                filter: grayscale(2);
+                transform: scale(1.5);
+        }
+    }
 
     /* ------------transiciones footer nav------------------ */
 
@@ -277,4 +359,30 @@
         }
         }
     }
+
+    .redes {
+        img {
+            width: 80px;
+            height: 80px;
+        }
+    }
+
+    .face {
+    transition: all .2s ease-in-out;
+    filter: grayscale(2);
+    }
+    
+    .face:hover {
+    filter: grayscale(0);
+    }
+    
+    .ig {
+    transition: all .2s ease-in-out;
+    filter: grayscale(2);
+    }
+    
+    .ig:hover {
+    filter: grayscale(0);
+    }
+    
 }
