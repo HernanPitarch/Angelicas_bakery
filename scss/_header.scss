@@ -1,8 +1,23 @@
+        // ---------maps con mixin------------
 header {
-    background-image: url(../assets/img/background.jpeg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 70px;
+    @include mobile-f(sm) {
+        background-image: url(../assets/img/backgroundsm.jpeg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin-bottom: 70px;
+    }
+
+    @include mobile-f(md) {
+        background-image: url(../assets/img/backgroundmd.jpeg);
+    }
+
+    @include mobile-f(xl) {
+        background-image: url(../assets/img/background.jpeg);
+    }
+    
+    @include mobile-f(xxl) {
+        background-image: url(../assets/img/background.jpeg);
+    }
 }
 
 

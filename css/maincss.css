@@ -19,21 +19,47 @@ main {
 footer {
   grid-area: footer; }
 
-body {
-  background-image: url(../assets/img/background2.jpeg);
-  background-attachment: fixed;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
-  max-width: 1440px;
-  margin: auto; }
+@media screen and (min-width: 320px) {
+  body {
+    background-image: url(../assets/img/background2.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 1440px;
+    margin: auto; } }
+
+@media screen and (min-width: 768px) {
+  body {
+    background-image: url(../assets/img/background3.jpeg); } }
+
+@media screen and (min-width: 1024px) {
+  body {
+    background-image: url(../assets/img/background3.jpeg); } }
+
+@media screen and (min-width: 1440px) {
+  body {
+    background-image: url(../assets/img/background3.jpeg); } }
 
 /*----------- estilo header------------------ */
-header {
-  background-image: url(../assets/img/background.jpeg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  margin-bottom: 70px; }
+@media screen and (min-width: 320px) {
+  header {
+    background-image: url(../assets/img/backgroundsm.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 70px; } }
+
+@media screen and (min-width: 768px) {
+  header {
+    background-image: url(../assets/img/backgroundmd.jpeg); } }
+
+@media screen and (min-width: 1024px) {
+  header {
+    background-image: url(../assets/img/background.jpeg); } }
+
+@media screen and (min-width: 1440px) {
+  header {
+    background-image: url(../assets/img/background.jpeg); } }
 
 h1 {
   font-family: 'playfair display', sans-serif;
@@ -100,11 +126,11 @@ h3 {
     align-items: center;
     justify-content: space-around; }
 
-.tortas2 {
+.tortas2, .personal2, .contacto form, .mapa {
   display: flex;
   flex-direction: column;
   align-items: center; }
-  .tortas2 ul {
+  .tortas2 ul, .personal2 ul, .contacto form ul, .mapa ul {
     border-top: 2px solid #000000;
     border-bottom: 2px solid #000000; }
 
@@ -154,11 +180,6 @@ div li {
     margin: auto;
     border-top: 2px solid #000000;
     border-bottom: 2px solid #000000; }
-
-.personal2 {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
 
 /* ---------------seccion box regalo------------------- */
 .regalo {
@@ -255,10 +276,7 @@ footer {
   .ricota h3 {
     font-size: 20px; }
 
-.tyc {
-  align-items: center; }
-
-.tyc2 {
+.tyc, .tyc2 {
   align-items: center; }
 
 /* -----------------estilo tartas----------------------------- */
@@ -274,12 +292,12 @@ footer {
     width: 150px;
     height: 150px; }
 
-.fyl {
+.fyl, .fyl2 {
   text-align: center;
   color: #000000; }
-  .fyl h3 {
+  .fyl h3, .fyl2 h3 {
     font-size: 17px; }
-  .fyl p {
+  .fyl p, .fyl2 p {
     font-family: 'nixie one' sans-serif;
     font-size: 15px;
     text-align: center;
@@ -287,18 +305,16 @@ footer {
     margin: auto;
     color: #000000; }
 
-.fyl2 {
+.fyl2 h3 {
+  font-size: 17px; }
+
+.fyl2 p {
+  font-family: 'nixie one' sans-serif;
+  font-size: 15px;
   text-align: center;
+  max-width: 400px;
+  margin: auto;
   color: #000000; }
-  .fyl2 h3 {
-    font-size: 17px; }
-  .fyl2 p {
-    font-family: 'nixie one' sans-serif;
-    font-size: 15px;
-    text-align: center;
-    max-width: 400px;
-    margin: auto;
-    color: #000000; }
 
 /* ----------------- estilo personalizadas ------------------- */
 .person {
@@ -344,11 +360,6 @@ video {
   text-align: center; }
 
 /* ------------- estilo contacto --------- */
-.contacto form {
-  display: flex;
-  flex-direction: column;
-  align-items: center; }
-
 .contacto h4 {
   font-size: 15px;
   color: #000000;
@@ -372,9 +383,6 @@ video {
   margin-top: 20px; }
 
 .mapa {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   margin: 20px; }
   .mapa iframe {
     width: 300px;
@@ -396,14 +404,6 @@ video {
 /* ------media queries---------- */
 /* ------media queries index---------- */
 @media screen and (min-width: 768px) {
-  body {
-    background-image: url(../assets/img/background3.jpeg);
-    background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    max-width: 1440px;
-    margin: auto; }
   h1 {
     text-align: center;
     font-size: 4em; }
@@ -424,7 +424,7 @@ video {
   .tortas div {
     flex-wrap: wrap;
     margin-top: 15px; }
-  .tortas2 {
+  .tortas2, .personal2, .contacto form, .mapa {
     display: flex;
     flex-direction: column; }
   div li {
@@ -479,9 +479,9 @@ video {
     font-size: 25px;
     max-width: 600px;
     text-align: center; }
-  .fyl h3 {
+  .fyl h3, .fyl2 h3 {
     font-size: 27px; }
-  .fyl p {
+  .fyl p, .fyl2 p {
     font-size: 25px;
     max-width: 600px;
     text-align: center; }
@@ -524,13 +524,13 @@ video {
     justify-content: space-between; }
   /* --------------transiciones enlaces index---------- */
   /*--seccion tortas--*/
-  .tortas2 {
+  .tortas2, .personal2, .contacto form, .mapa {
     overflow: hidden; }
-    .tortas2 a {
+    .tortas2 a, .personal2 a, .contacto form a, .mapa a {
       transition: transform 1s, filter 1.5s ease-in-out;
       filter: grayscale(0);
       transform: scale(1); }
-  .tortas2:hover a {
+  .tortas2:hover a, .personal2:hover a, .contacto form:hover a, .mapa:hover a {
     filter: grayscale(2);
     transform: scale(1.5); }
   /*--seccion tartas--*/

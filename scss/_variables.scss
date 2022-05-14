@@ -9,3 +9,20 @@ $img-size2: 150px;
 $img-size3: 450px;
 
 $img-size4:100px;
+
+
+// maps---mixin
+
+$breakpoints: (
+    sm : 320px,
+    md : 768px,
+    xl : 1024px,
+    xxl :1440px
+);
+
+@mixin mobile-f($breakpoint) {
+    @media screen and (min-width: map-get($breakpoints, $breakpoint)) {
+        @content;
+    }
+    
+}
