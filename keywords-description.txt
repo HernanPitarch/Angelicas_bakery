@@ -1,0 +1,54 @@
+KEYWORDS
+
+Agregado keywords--index "Angelicas Bakery, pasteleria, tortas personalizadas, San Martin, tartas, desayunos, box personalizados"
+		     
+		     --tortas "Angelicas Bakery, pasteleria, tortas personalizadas, San Martin, tartas, desayunos, box personalizados, tortas"
+
+		     --tartas "Angelicas Bakery, pasteleria, tortas personalizadas, San Martin, tartas, desayunos, box personalizados, lemon pie,
+			 tofi"
+			
+		     --personalizadas "Angelicas Bakery, pasteleria, tortas personalizadas, San Martin, tartas, desayunos, box personalizados,
+			 cumpleños, candy bar"
+
+		     --box para regalar "Angelicas Bakery, pasteleria, tortas personalizadas, San Martin, tartas, desayunos, box personalizados,
+			 meriendas, regalo"
+
+		     --contacto "Angelicas Bakery, pasteleria, tortas personalizadas, San Martin, tartas, desayunos, box personalizados,
+			 whatsapp, instagram, facebook"
+
+DESCRIPTION
+
+Agregado description--index "Somos Angelicas Bakery San Martin realizamos pasteleria, tortas personalizadas y desayunos."
+
+			  --tortas "Somos Angelicas Bakery San Martin realizamos pasteleria, tortas personalizadas y desayunos. Estas son nuestras
+			    tortas."
+
+			  --tartas "Somos Angelicas Bakery San Martin realizamos pasteleria, tortas personalizadas y desayunos. Estas son nuestras
+ 			    tartas."
+
+			  --personalizadas "Somos Angelicas Bakery San Martin realizamos pasteleria, tortas personalizadas y desayunos. Mira
+			    nuestros diferentes diseños con candy bar."
+
+			  --box para regalar "Somos Angelicas Bakery San Martin realizamos pasteleria, tortas personalizadas y desayunos.
+			    Estos son nuestros desayunos/meriendas."
+
+			  --contacto "Somos Angelicas Bakery San Martin realizamos pasteleria, tortas personalizadas y desayunos. Contactate
+		          con nosotros."
+
+TITLE
+
+Cambio de title--index "Angelicas bakery-HOME"
+		   
+               --tortas "Angelicas bakery-TORTAS"
+
+		   --tartas "Angelicas bakery-TARTAS"
+
+		   --personalizadas "Angelicas bakery-PERSONALIZADAS"
+
+		   --box para regalar "Angelicas bakery-BOX PARA REGALAR"
+
+		   --contacto "Angelicas bakery-CONTACTO"
+
+FAVICON
+
+Agregado favicon a todos los htmls.
