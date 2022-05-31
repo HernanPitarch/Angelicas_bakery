@@ -249,6 +249,19 @@
         flex-direction: row;
         justify-content: space-between;
     }
+}
+
+@media screen and (min-width: 2560px) {
+    html {
+        background-color: #928686;
+    }
+
+    body {
+        border: 3px solid #000;
+    }
+
+}
+
 
    /* --------------transiciones enlaces index---------- */
 
@@ -375,4 +388,3 @@
     filter: grayscale(0);
     }
     
-}

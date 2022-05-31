@@ -129,10 +129,15 @@ h3 {
 .tortas2, .personal2, .contacto form, .mapa {
   display: flex;
   flex-direction: column;
-  align-items: center; }
+  justify-content: center;
+  align-items: center;
+  text-align: center; }
   .tortas2 ul, .personal2 ul, .contacto form ul, .mapa ul {
     border-top: 2px solid #000000;
     border-bottom: 2px solid #000000; }
+    .tortas2 ul li, .personal2 ul li, .contacto form ul li, .mapa ul li {
+      text-align: left;
+      margin-right: 20px; }
 
 div li {
   list-style-type: none;
@@ -143,24 +148,29 @@ div li {
 .tarta {
   margin-top: 15px;
   display: flex;
-  flex-direction: column-reverse; }
+  flex-direction: column-reverse;
+  justify-content: space-around; }
   .tarta img {
     height: 350px;
     width: 350px; }
   .tarta div {
     color: #000000;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center; }
 
 .tarta2 {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-content: center; }
   .tarta2 ul {
     border-top: 2px solid #000000;
     border-bottom: 2px solid #000000;
     margin-top: 5px; }
+    .tarta2 ul li {
+      text-align: left;
+      margin-right: 20px; }
 
 /* ------------seccion personalizadas---------------- */
 .personal {
@@ -214,7 +224,8 @@ footer {
   background-size: cover;
   background-repeat: no-repeat; }
   footer h5 {
-    font-size: 15px; }
+    font-size: 15px;
+    font-weight: bold; }
   footer h6 {
     text-align: right;
     font-size: 10px; }
@@ -224,11 +235,13 @@ footer {
   flex-direction: column;
   align-items: flex-end; }
   .logof h5 {
+    font-weight: bold;
     margin-right: 20px;
     margin-top: 50px; }
   .logof nav a {
     list-style-type: none;
     text-decoration: none;
+    font-weight: bold;
     color: #000000;
     margin-top: 20px; }
 
@@ -265,6 +278,7 @@ footer {
   .ricota div {
     text-align: center; }
   .ricota img {
+    border-bottom: 2px solid #000000;
     width: 100px;
     height: 100px; }
   .ricota p {
@@ -290,7 +304,8 @@ footer {
     color: #ffffff; }
   .frola img {
     width: 150px;
-    height: 150px; }
+    height: 150px;
+    border-bottom: 2px solid #000000; }
 
 .fyl, .fyl2 {
   text-align: center;
@@ -354,12 +369,19 @@ video {
     text-align: center; }
   .box2 img {
     width: 100px;
-    height: 100px; }
+    height: 100px;
+    border-bottom: 2px solid #000000; }
 
 .slug .amor {
   text-align: center; }
 
 /* ------------- estilo contacto --------- */
+.contacto form input {
+  margin-top: 10px; }
+
+.contacto form textarea {
+  margin-top: 10px; }
+
 .contacto h4 {
   font-size: 15px;
   color: #000000;
@@ -397,6 +419,8 @@ video {
 .pago {
   color: #000000;
   font-size: 15px; }
+  .pago h4 {
+    margin-left: 30px; }
   .pago ul li {
     text-align: left;
     margin-top: 12px; }
@@ -521,63 +545,84 @@ video {
   /* ------------media contactos----------- */
   .mapa {
     flex-direction: row;
-    justify-content: space-between; }
-  /* --------------transiciones enlaces index---------- */
-  /*--seccion tortas--*/
-  .tortas2, .personal2, .contacto form, .mapa {
-    overflow: hidden; }
-    .tortas2 a, .personal2 a, .contacto form a, .mapa a {
-      transition: transform 1s, filter 1.5s ease-in-out;
-      filter: grayscale(0);
-      transform: scale(1); }
-  .tortas2:hover a, .personal2:hover a, .contacto form:hover a, .mapa:hover a {
-    filter: grayscale(2);
-    transform: scale(1.5); }
-  /*--seccion tartas--*/
-  .tarta2 {
-    overflow: hidden; }
-    .tarta2 a {
-      transition: transform 1s, filter 1.5s ease-in-out;
-      filter: grayscale(0);
-      transform: scale(1); }
-  .tarta2:hover a {
-    filter: grayscale(2);
-    transform: scale(1.5); }
-  /*--seccion personalizadas--*/
-  .personal2 {
-    overflow: hidden; }
-    .personal2 a {
-      transition: transform 1s, filter 1.5s ease-in-out;
-      filter: grayscale(0);
-      transform: scale(1); }
-  .personal2:hover a {
-    filter: grayscale(2);
-    transform: scale(1.4); }
-  /*--seccion box para regalar--*/
-  .regalo2 {
-    overflow: hidden; }
-    .regalo2 a {
-      transition: transform 1s, filter 1.5s ease-in-out;
-      filter: grayscale(0);
-      transform: scale(1); }
-  .regalo2:hover a {
-    filter: grayscale(2);
-    transform: scale(1.5); }
-  /* ------------transiciones footer nav------------------ */
-  footer .logof nav a {
-    transition: all .2s ease-in-out; }
-  footer .logof nav a:hover {
-    text-decoration: underline; }
-  .redes img {
-    width: 80px;
-    height: 80px; }
-  .face {
-    transition: all .2s ease-in-out;
-    filter: grayscale(2); }
-  .face:hover {
-    filter: grayscale(0); }
-  .ig {
-    transition: all .2s ease-in-out;
-    filter: grayscale(2); }
-  .ig:hover {
-    filter: grayscale(0); } }
+    justify-content: space-between; } }
+
+@media screen and (min-width: 2560px) {
+  html {
+    background-color: #928686; }
+  body {
+    border: 3px solid #000; } }
+
+/* --------------transiciones enlaces index---------- */
+/*--seccion tortas--*/
+.tortas2, .personal2, .contacto form, .mapa {
+  overflow: hidden; }
+  .tortas2 a, .personal2 a, .contacto form a, .mapa a {
+    transition: transform 1s, filter 1.5s ease-in-out;
+    filter: grayscale(0);
+    transform: scale(1); }
+
+.tortas2:hover a, .personal2:hover a, .contacto form:hover a, .mapa:hover a {
+  filter: grayscale(2);
+  transform: scale(1.5); }
+
+/*--seccion tartas--*/
+.tarta2 {
+  overflow: hidden; }
+  .tarta2 a {
+    transition: transform 1s, filter 1.5s ease-in-out;
+    filter: grayscale(0);
+    transform: scale(1); }
+
+.tarta2:hover a {
+  filter: grayscale(2);
+  transform: scale(1.5); }
+
+/*--seccion personalizadas--*/
+.personal2 {
+  overflow: hidden; }
+  .personal2 a {
+    transition: transform 1s, filter 1.5s ease-in-out;
+    filter: grayscale(0);
+    transform: scale(1); }
+
+.personal2:hover a {
+  filter: grayscale(2);
+  transform: scale(1.4); }
+
+/*--seccion box para regalar--*/
+.regalo2 {
+  overflow: hidden; }
+  .regalo2 a {
+    transition: transform 1s, filter 1.5s ease-in-out;
+    filter: grayscale(0);
+    transform: scale(1); }
+
+.regalo2:hover a {
+  filter: grayscale(2);
+  transform: scale(1.5); }
+
+/* ------------transiciones footer nav------------------ */
+footer .logof nav a {
+  transition: all .2s ease-in-out; }
+
+footer .logof nav a:hover {
+  text-decoration: underline; }
+
+.redes img {
+  width: 80px;
+  height: 80px; }
+
+.face {
+  transition: all .2s ease-in-out;
+  filter: grayscale(2); }
+
+.face:hover {
+  filter: grayscale(0); }
+
+.ig {
+  transition: all .2s ease-in-out;
+  filter: grayscale(2); }
+
+.ig:hover {
+  filter: grayscale(0); }
