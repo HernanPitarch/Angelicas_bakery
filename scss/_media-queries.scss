@@ -126,7 +126,7 @@
     
     }
 
-    /* ----------media seccion tartas---------- */
+    /* ----------media tartas---------- */
 
     .frola {
 
@@ -150,7 +150,6 @@
     }
 
     .fyl {
-
         h3 {
             font-size: 27px;
         }
@@ -171,7 +170,7 @@
         }
     }
 
-    /* -----------media box pata regalar------------ */
+    /* -----------media box para regalar------------ */
 
     .box {
 
@@ -186,6 +185,18 @@
         img {
             width: $img-size;
             height: $img-size;
+        }
+    }
+
+    .slug {
+        li {
+            text-align: center;
+        }
+    }
+
+    .amor {
+        li {
+            text-align: center;
         }
     }
 
@@ -249,18 +260,8 @@
         flex-direction: row;
         justify-content: space-between;
     }
-}
 
-@media screen and (min-width: 2560px) {
-    html {
-        background-color: #928686;
-    }
 
-    body {
-        border: 3px solid #000;
-    }
-
-}
 
 
    /* --------------transiciones enlaces index---------- */
@@ -387,4 +388,39 @@
     .ig:hover {
     filter: grayscale(0);
     }
-    
+}
+
+@media screen and (min-width: 1440px) {
+    .fyl {
+        .pf {
+            margin-left: 100px;
+        }
+
+        .tr {
+            margin-left: 100px;
+        }
+    }
+
+    .fyl2 {
+        .lp {
+            margin-right: 120px;
+        }
+
+        .tt {
+            margin-right: 120px;
+        }
+    }
+
+
+}
+
+@media screen and (min-width: 2560px) {
+    html {
+        background-color: #928686;
+}
+
+    body {
+        border: 3px solid #000;
+}
+
+}

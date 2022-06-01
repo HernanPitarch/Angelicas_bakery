@@ -278,7 +278,7 @@ div {
     }
 
     img {
-        border-bottom: 2px solid #000000;
+        
         width: $img-size4;
         height: $img-size4;
     }
@@ -293,6 +293,8 @@ div {
 
     h3 {
         font-size: 20px;
+        border-top: 2px solid #000000;
+        margin-top: 8px;
     }
     }
 
@@ -321,7 +323,6 @@ div {
     img {
         width: $img-size2;
         height: $img-size2; 
-        border-bottom: 2px solid #000000;
     }
     }
 
@@ -331,6 +332,8 @@ div {
 
         h3 {
             font-size: 17px;
+            border-top: 2px solid #000000;
+            margin-top: 8px;
         }
 
         p {
@@ -426,10 +429,20 @@ video {
     }
 
 .slug {
-    .amor {
-        text-align: center;
-    }   
+    text-align: center;
+
+    li {
+        text-align: left;
+    }
 }
+.amor {
+        text-align: center;
+
+    li {
+        text-align: left;
+    }
+}   
+
 
 /* ------------- estilo contacto --------- */
 

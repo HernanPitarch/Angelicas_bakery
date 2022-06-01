@@ -278,7 +278,6 @@ footer {
   .ricota div {
     text-align: center; }
   .ricota img {
-    border-bottom: 2px solid #000000;
     width: 100px;
     height: 100px; }
   .ricota p {
@@ -288,7 +287,9 @@ footer {
     max-width: 400px;
     margin: auto; }
   .ricota h3 {
-    font-size: 20px; }
+    font-size: 20px;
+    border-top: 2px solid #000000;
+    margin-top: 8px; }
 
 .tyc, .tyc2 {
   align-items: center; }
@@ -304,14 +305,15 @@ footer {
     color: #ffffff; }
   .frola img {
     width: 150px;
-    height: 150px;
-    border-bottom: 2px solid #000000; }
+    height: 150px; }
 
 .fyl, .fyl2 {
   text-align: center;
   color: #000000; }
   .fyl h3, .fyl2 h3 {
-    font-size: 17px; }
+    font-size: 17px;
+    border-top: 2px solid #000000;
+    margin-top: 8px; }
   .fyl p, .fyl2 p {
     font-family: 'nixie one' sans-serif;
     font-size: 15px;
@@ -372,8 +374,15 @@ video {
     height: 100px;
     border-bottom: 2px solid #000000; }
 
-.slug .amor {
+.slug {
   text-align: center; }
+  .slug li {
+    text-align: left; }
+
+.amor {
+  text-align: center; }
+  .amor li {
+    text-align: left; }
 
 /* ------------- estilo contacto --------- */
 .contacto form input {
@@ -493,7 +502,7 @@ video {
   .ricota p {
     font-size: 25px;
     max-width: 500px; }
-  /* ----------media seccion tartas---------- */
+  /* ----------media tartas---------- */
   .frola img {
     width: 350px;
     height: 350px; }
@@ -513,7 +522,7 @@ video {
   .person img img {
     height: 350px;
     width: 350px; }
-  /* -----------media box pata regalar------------ */
+  /* -----------media box para regalar------------ */
   .box p {
     font-size: 25px; }
   .box2 {
@@ -521,6 +530,10 @@ video {
     .box2 img {
       width: 350px;
       height: 350px; }
+  .slug li {
+    text-align: center; }
+  .amor li {
+    text-align: center; }
   /* -----------media contacto----------- */
   .contacto h4 {
     font-size: 20px; }
@@ -545,84 +558,79 @@ video {
   /* ------------media contactos----------- */
   .mapa {
     flex-direction: row;
-    justify-content: space-between; } }
+    justify-content: space-between; }
+  /* --------------transiciones enlaces index---------- */
+  /*--seccion tortas--*/
+  .tortas2, .personal2, .contacto form, .mapa {
+    overflow: hidden; }
+    .tortas2 a, .personal2 a, .contacto form a, .mapa a {
+      transition: transform 1s, filter 1.5s ease-in-out;
+      filter: grayscale(0);
+      transform: scale(1); }
+  .tortas2:hover a, .personal2:hover a, .contacto form:hover a, .mapa:hover a {
+    filter: grayscale(2);
+    transform: scale(1.5); }
+  /*--seccion tartas--*/
+  .tarta2 {
+    overflow: hidden; }
+    .tarta2 a {
+      transition: transform 1s, filter 1.5s ease-in-out;
+      filter: grayscale(0);
+      transform: scale(1); }
+  .tarta2:hover a {
+    filter: grayscale(2);
+    transform: scale(1.5); }
+  /*--seccion personalizadas--*/
+  .personal2 {
+    overflow: hidden; }
+    .personal2 a {
+      transition: transform 1s, filter 1.5s ease-in-out;
+      filter: grayscale(0);
+      transform: scale(1); }
+  .personal2:hover a {
+    filter: grayscale(2);
+    transform: scale(1.4); }
+  /*--seccion box para regalar--*/
+  .regalo2 {
+    overflow: hidden; }
+    .regalo2 a {
+      transition: transform 1s, filter 1.5s ease-in-out;
+      filter: grayscale(0);
+      transform: scale(1); }
+  .regalo2:hover a {
+    filter: grayscale(2);
+    transform: scale(1.5); }
+  /* ------------transiciones footer nav------------------ */
+  footer .logof nav a {
+    transition: all .2s ease-in-out; }
+  footer .logof nav a:hover {
+    text-decoration: underline; }
+  .redes img {
+    width: 80px;
+    height: 80px; }
+  .face {
+    transition: all .2s ease-in-out;
+    filter: grayscale(2); }
+  .face:hover {
+    filter: grayscale(0); }
+  .ig {
+    transition: all .2s ease-in-out;
+    filter: grayscale(2); }
+  .ig:hover {
+    filter: grayscale(0); } }
+
+@media screen and (min-width: 1440px) {
+  .fyl .pf, .fyl2 .pf {
+    margin-left: 100px; }
+  .fyl .tr, .fyl2 .tr {
+    margin-left: 100px; }
+  .fyl2 .lp {
+    margin-right: 120px; }
+  .fyl2 .tt {
+    margin-right: 120px; } }
 
 @media screen and (min-width: 2560px) {
   html {
     background-color: #928686; }
   body {
     border: 3px solid #000; } }
-
-/* --------------transiciones enlaces index---------- */
-/*--seccion tortas--*/
-.tortas2, .personal2, .contacto form, .mapa {
-  overflow: hidden; }
-  .tortas2 a, .personal2 a, .contacto form a, .mapa a {
-    transition: transform 1s, filter 1.5s ease-in-out;
-    filter: grayscale(0);
-    transform: scale(1); }
-
-.tortas2:hover a, .personal2:hover a, .contacto form:hover a, .mapa:hover a {
-  filter: grayscale(2);
-  transform: scale(1.5); }
-
-/*--seccion tartas--*/
-.tarta2 {
-  overflow: hidden; }
-  .tarta2 a {
-    transition: transform 1s, filter 1.5s ease-in-out;
-    filter: grayscale(0);
-    transform: scale(1); }
-
-.tarta2:hover a {
-  filter: grayscale(2);
-  transform: scale(1.5); }
-
-/*--seccion personalizadas--*/
-.personal2 {
-  overflow: hidden; }
-  .personal2 a {
-    transition: transform 1s, filter 1.5s ease-in-out;
-    filter: grayscale(0);
-    transform: scale(1); }
-
-.personal2:hover a {
-  filter: grayscale(2);
-  transform: scale(1.4); }
-
-/*--seccion box para regalar--*/
-.regalo2 {
-  overflow: hidden; }
-  .regalo2 a {
-    transition: transform 1s, filter 1.5s ease-in-out;
-    filter: grayscale(0);
-    transform: scale(1); }
-
-.regalo2:hover a {
-  filter: grayscale(2);
-  transform: scale(1.5); }
-
-/* ------------transiciones footer nav------------------ */
-footer .logof nav a {
-  transition: all .2s ease-in-out; }
-
-footer .logof nav a:hover {
-  text-decoration: underline; }
-
-.redes img {
-  width: 80px;
-  height: 80px; }
-
-.face {
-  transition: all .2s ease-in-out;
-  filter: grayscale(2); }
-
-.face:hover {
-  filter: grayscale(0); }
-
-.ig {
-  transition: all .2s ease-in-out;
-  filter: grayscale(2); }
-
-.ig:hover {
-  filter: grayscale(0); }
