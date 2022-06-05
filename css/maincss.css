@@ -338,12 +338,25 @@ footer {
   color: #000000; }
   .person h3 {
     text-align: center; }
+  .person h4 {
+    font-family: 'playfair display' sans-serif;
+    color: #000000;
+    text-align: center;
+    text-shadow: 7px 7px #a59c9c;
+    font-size: 25px;
+    max-width: 350px;
+    margin: auto;
+    margin-top: 10px; }
   .person img {
     justify-content: center;
     height: 250px;
     width: 250px; }
   .person div {
     text-align: center; }
+    .person div ul li {
+      text-align: center;
+      max-width: 500px;
+      margin: auto; }
   .person div ol {
     max-width: 650px;
     margin: auto; }

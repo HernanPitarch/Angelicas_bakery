@@ -373,6 +373,17 @@ div {
         text-align: center;
     }
 
+    h4 {
+        font-family: 'playfair display' sans-serif;
+        color: $font-color2;
+        text-align: center;
+        text-shadow: 7px 7px #a59c9c;
+        font-size: 25px ;
+        max-width: 350px;
+        margin: auto;  
+        margin-top: 10px;
+    }
+
     img {
         justify-content: center;
         height: 250px;
@@ -381,6 +392,15 @@ div {
 
     div {
         text-align: center;
+
+        ul {
+            li {
+                text-align: center;
+                max-width: 500px;
+                margin: auto;
+            }
+            
+        }
     }
 
     div ol {
