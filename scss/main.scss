@@ -69,13 +69,14 @@ body {
 }
 
 .presentacion {
-    background-image: url(../assets/img/nos.jpeg);
+    background-image: url(../assets/img/negro.jpeg);
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: cover;
     text-align: center;
 
     p {
+        color: #fdfcfc;
         font-family: 'nixie one' sans-serif;
         font-size: 15px;
         text-align: center;
@@ -84,8 +85,18 @@ body {
     } 
 }
 
+.nos {
+    font-family: 'playfair display' sans-serif;
+    color: #fdfcfc;
+    text-align: center;
+    text-shadow: 7px 7px #a59c9c;
+    font-size: 25px ;
+    max-width: 350px;
+    margin: auto;   
+}
+
 .presentacion2 {
-    color: #b91308;
+    color: #eafa0a;
 }
 
 h3 {

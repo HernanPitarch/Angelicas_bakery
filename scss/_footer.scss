@@ -10,7 +10,7 @@ footer {
     }
 
     h6{
-        text-align: right;
+        text-align: center;
         font-size: 10px;
     }
     
@@ -19,12 +19,10 @@ footer {
 .logof {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+    align-items: center;
 
     h5 {
         font-weight: bold;
-        margin-right: 20px;
-        margin-top: 50px;
     }
 
     nav {
@@ -34,6 +32,7 @@ footer {
             font-weight: bold;
             color: #000000;
             margin-top: 20px;
+            margin-right: 35px;
         }
     }
 
@@ -46,8 +45,13 @@ footer {
     bottom: 0;
 }
 
+.red {
+    text-align: center;
+}
+
 .redes {
     display: flex;
+    justify-content: center;
 
     img {
         height: 40px;

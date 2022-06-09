@@ -91,20 +91,30 @@ h2 {
   justify-content: center; }
 
 .presentacion {
-  background-image: url(../assets/img/nos.jpeg);
+  background-image: url(../assets/img/negro.jpeg);
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center; }
   .presentacion p {
+    color: #fdfcfc;
     font-family: 'nixie one' sans-serif;
     font-size: 15px;
     text-align: center;
     max-width: 550px;
     margin: auto; }
 
+.nos {
+  font-family: 'playfair display' sans-serif;
+  color: #fdfcfc;
+  text-align: center;
+  text-shadow: 7px 7px #a59c9c;
+  font-size: 25px;
+  max-width: 350px;
+  margin: auto; }
+
 .presentacion2 {
-  color: #b91308; }
+  color: #eafa0a; }
 
 h3 {
   font-family: 'playfair display' sans-serif;
@@ -227,23 +237,22 @@ footer {
     font-size: 15px;
     font-weight: bold; }
   footer h6 {
-    text-align: right;
+    text-align: center;
     font-size: 10px; }
 
 .logof {
   display: flex;
   flex-direction: column;
-  align-items: flex-end; }
+  align-items: center; }
   .logof h5 {
-    font-weight: bold;
-    margin-right: 20px;
-    margin-top: 50px; }
+    font-weight: bold; }
   .logof nav a {
     list-style-type: none;
     text-decoration: none;
     font-weight: bold;
     color: #000000;
-    margin-top: 20px; }
+    margin-top: 20px;
+    margin-right: 35px; }
 
 .what {
   display: flex;
@@ -251,8 +260,12 @@ footer {
   position: sticky;
   bottom: 0; }
 
+.red {
+  text-align: center; }
+
 .redes {
-  display: flex; }
+  display: flex;
+  justify-content: center; }
   .redes img {
     height: 40px;
     width: 40px; }
@@ -562,10 +575,17 @@ video {
     font-size: 20px; }
   /* -------------media footer---------- */
   footer h6 {
+    text-align: right;
     font-size: 15px; }
-  .logof h5 {
-    margin-right: 50px;
-    margin-top: 50px; } }
+  .logof {
+    align-items: flex-end; }
+    .logof h5 {
+      margin-right: 90px;
+      margin-top: 10px; }
+  .red {
+    text-align: left; }
+  .redes {
+    justify-content: flex-start; } }
 
 @media screen and (min-width: 1024px) {
   /* ------------media contactos----------- */
